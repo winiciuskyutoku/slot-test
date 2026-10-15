@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.croct.com/json/v1/project.json",
+  "organization": "winiciusteste-1179",
+  "workspace": "winiciusteste",
+  "applications": {
+    "development": "website-dev",
+    "production": "website-prod"
+  },
+  "locales": [
+    "en-gb"
+  ],
+  "defaultLocale": "en-gb",
+  "slots": {
+    "next15-homepage": "1"
+  },
+  "components": {},
+  "paths": {
+    "source": ".",
+    "utilities": "lib",
+    "components": "components",
+    "examples": "app",
+    "content": "."
+  }
+}

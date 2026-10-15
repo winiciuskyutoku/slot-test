@@ -1,0 +1,24 @@
+{
+  "next15-homepage": [
+    {
+      "version": 1,
+      "content": {
+        "en-gb": {
+          "_component": "next15-starter-page@1",
+          "instructions": [
+            "Get started by editing `app/page.test.tsx`.",
+            "Save and see your changes instantly."
+          ],
+          "primaryButton": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Deploy now"
+          },
+          "secondaryButton": {
+            "url": "https://nextjs.org/docs?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Read our docs"
+          }
+        }
+      }
+    }
+  ]
+}
