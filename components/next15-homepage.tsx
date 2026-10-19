@@ -6,7 +6,7 @@ import {fetchContent} from '@croct/plug-next/server';
  * Renders the text between backticks as inline code,
  * e.g. "Get started by editing `app/page.tsx`."
  */
-function renderInlineCode(text: string): ReactNode[] {
+export function renderInlineCode(text: string): ReactNode[] {
   return text.split('`').map((part, index) => (
     index % 2 === 1
       ? (

@@ -11,7 +11,7 @@
   ],
   "defaultLocale": "en-gb",
   "slots": {
-    "next15-homepage": "1"
+    "next15-homepage": "1, 2"
   },
   "components": {},
   "paths": {

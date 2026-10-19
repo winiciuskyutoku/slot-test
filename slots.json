@@ -6,16 +6,105 @@
         "en-gb": {
           "_component": "next15-starter-page@1",
           "instructions": [
-            "Get started by editing `app/page.test.tsx`.",
-            "Save and see your changes instantly."
+            "Fallback: Get started by editing.",
+            "Fallback: Save and see your changes instantly.",
+            "Fallback: Another item just to test"
           ],
           "primaryButton": {
             "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
-            "label": "Deploy now"
+            "label": "Fallback: Deploy now"
           },
           "secondaryButton": {
             "url": "https://nextjs.org/docs?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
-            "label": "Read our docs"
+            "label": "Fallback: Read our docs"
+          }
+        },
+        "pt-br": {
+          "_component": "next15-starter-page@1",
+          "instructions": [
+            "Fallback: Comece agora"
+          ],
+          "primaryButton": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: Deploiar"
+          },
+          "secondaryButton": {
+            "url": "https://nextjs.org/docs?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: Leia a docs"
+          }
+        },
+        "nb-sj": {
+          "_component": "next15-starter-page@1",
+          "instructions": [],
+          "primaryButton": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: lingua muito doida"
+          },
+          "secondaryButton": {
+            "url": "https://nextjs.org/docs?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: halland"
+          }
+        }
+      }
+    },
+    {
+      "version": 2,
+      "content": {
+        "en-gb": {
+          "_component": "next15-starter-page@2",
+          "ter": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "Label": "Fallback: Third button"
+          },
+          "title": "Fallback: Title",
+          "instructions": [
+            "Fallback: Get started by editing.",
+            "Fallback: Save and see your changes instantly.",
+            "Fallback: Another item just to test"
+          ],
+          "primaryButton": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: Deploy now"
+          },
+          "secondaryButton": {
+            "url": "https://nextjs.org/docs?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: Read our docs"
+          }
+        },
+        "pt-br": {
+          "_component": "next15-starter-page@2",
+          "ter": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "Label": "Fallback: Third button"
+          },
+          "title": "Fallback: Title teste",
+          "instructions": [
+            "Fallback: Comece agora"
+          ],
+          "primaryButton": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: Deploiar"
+          },
+          "secondaryButton": {
+            "url": "https://nextjs.org/docs?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: Leia a docs"
+          }
+        },
+        "nb-sj": {
+          "_component": "next15-starter-page@2",
+          "ter": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "Label": "Fallback: Third button"
+          },
+          "title": "Fallback: fsadfasdf",
+          "instructions": [],
+          "primaryButton": {
+            "url": "https://vercel.com/new?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: lingua muito doida"
+          },
+          "secondaryButton": {
+            "url": "https://nextjs.org/docs?utm_source=croct&utm_medium=default-template&utm_campaign=create-next-app",
+            "label": "Fallback: halland"
           }
         }
       }

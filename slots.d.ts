@@ -6,7 +6,81 @@
  * To regenerate, run `croct update`.
  */
 
-type Def$e5ac4cc5 = {
+/**
+ * Next.js 15 starter page nome bem longoooo ver limite qual se
+ * 
+ * The structure for Next.js 15 starter pages.
+ */
+type Def$d7e9ce63 = {
+  /**
+   * Instructions
+   * 
+   * The steps to help users get started.
+   */
+  'instructions': Array<string>,
+  /**
+   * Primary button
+   * 
+   * The primary call-to-action button.
+   */
+  'primaryButton': {
+    /**
+     * URL
+     * 
+     * The link the button points to.
+     */
+    'url': string,
+    /**
+     * Label
+     * 
+     * The label shown on the button.
+     */
+    'label': string,
+  },
+  /**
+   * Secondary button
+   * 
+   * The secondary call-to-action button.
+   */
+  'secondaryButton': {
+    /**
+     * URL
+     * 
+     * The link the button points to.
+     */
+    'url': string,
+    /**
+     * Label
+     * 
+     * The label shown on the button.
+     */
+    'label': string,
+  },
+};
+
+/**
+ * Next.js 15 starter page nome bem longoooo ver limite qual se
+ * 
+ * The structure for Next.js 15 starter pages.
+ */
+type Def$f0b9d8c6 = {
+  /**
+   * Tertiary button
+   */
+  'ter': {
+    /**
+     * URL
+     */
+    'url': string,
+    /**
+     * Label
+     */
+    'Label': string,
+  },
+  /**
+   * Title
+   */
+  'title': string,
   /**
    * Instructions
    * 
@@ -54,12 +128,14 @@ type Def$e5ac4cc5 = {
 };
 
 declare module '@croct/plug/slot' {
-  type Next15HomepageV1 = Def$e5ac4cc5 & {'_component': 'next15-starter-page@1' | null};
+  type Next15HomepageV1 = Def$d7e9ce63 & {'_component': 'next15-starter-page@1' | null};
+  type Next15HomepageV2 = Def$f0b9d8c6 & {'_component': 'next15-starter-page@2' | null};
   
   export interface VersionedSlotMap {
     'next15-homepage': {
-      latest: Next15HomepageV1,
+      latest: Next15HomepageV2,
       '1': Next15HomepageV1,
+      '2': Next15HomepageV2,
     };
   }
 }
